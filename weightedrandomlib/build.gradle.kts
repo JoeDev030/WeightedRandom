@@ -17,7 +17,7 @@ plugins {
 }
 
 group = "com.weightedrandom"
-version = "0.0.5"
+version = "0.0.6"
 
 repositories {
     // Use Maven Central for resolving dependencies.
@@ -43,7 +43,7 @@ dependencies {
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(22)
+        languageVersion = JavaLanguageVersion.of(24)
     }
 }
 
@@ -56,7 +56,7 @@ mavenPublishing {
 
     pom {
         name = "Weighted Random Library"
-        description = "Test Description"
+        description = "Randomizer with Weights"
         inceptionYear = "2025"
         url = "https://github.com/joedev030/weightedrandom"
         licenses {
