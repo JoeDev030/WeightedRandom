@@ -1,5 +1,2 @@
-package main.kotlin.com.weightedrandom
+package com.weightedrandom
 
-class Library {
-
-}

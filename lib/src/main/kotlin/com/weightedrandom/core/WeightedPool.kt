@@ -1,4 +1,4 @@
-package main.kotlin.com.weightedrandom.core
+package com.weightedrandom.core
 
 import java.text.DecimalFormat
 import java.util.*

@@ -44,7 +44,8 @@ java {
     }
 }
 
-version = "0.0.3"
+group = "com.weightedrandom"
+version = "0.0.4"
 
 mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
