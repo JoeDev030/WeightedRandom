@@ -58,6 +58,13 @@ mavenPublishing {
         description = "Test Description"
         inceptionYear = "2025"
         url = "https://github.com/joedev030/weightedrandom"
+        licenses {
+            license {
+                name = "The Apache License, Version 2.0"
+                url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                distribution = "https://www.apache.org/licenses/LICENSE-2.0.txt"
+            }
+        }
 
         developers {
             developer {
