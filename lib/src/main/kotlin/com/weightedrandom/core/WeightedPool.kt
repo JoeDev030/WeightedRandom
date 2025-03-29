@@ -30,6 +30,6 @@ class WeightedPool<E>(private val random: Random = Random()) {
     }
 
     companion object {
-        private val percentFormat = DecimalFormat("#.###")
+        private val percentFormat = DecimalFormat("#.##")
     }
 }

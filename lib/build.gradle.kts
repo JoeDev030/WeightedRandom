@@ -16,6 +16,9 @@ plugins {
     id("com.vanniktech.maven.publish") version "0.31.0"
 }
 
+group = "com.weightedrandom"
+version = "0.0.5"
+
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
@@ -43,9 +46,6 @@ java {
         languageVersion = JavaLanguageVersion.of(22)
     }
 }
-
-group = "com.weightedrandom"
-version = "0.0.4"
 
 mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
